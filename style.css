@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.full {
+    background-image: url('S__2629687.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title {
+    font-size: 25px;
+}
+main {
+    margin-top: 2cm;
+}
+.rule h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.self-introduction {
+    margin-top: 2cm;
+}
+
+.self-introduction h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.manzi-chan p {
+    font-size: 25px;
+}
+.sanpun {
+    margin-top: 3cm;
+}
+.end {
+    margin-top: 3cm;
+    height: 6cm;
+}
+.end h1 {
+    text-align: center;
+    padding-top: 3cm;
+    font-size: 20px;
+}
+.picture{
+    transition: .7s ease-in-out ;
+}
+/* スマホ */
+@media screen and (orientation: portrait) {
+    .manzi-chan img {
+        height: auto;
+        width: auto;
+    }
+    
+}
+/* pc */
+@media screen and (orientation: landscape) {
+    .title{
+        font-size: 100px;
+    }
+    .button {
+        size: 40px;
+    }
+}

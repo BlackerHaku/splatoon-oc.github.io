@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スプラ3仲良くしよー</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./S__2629687.jpg" >
+</head>
+<body>
+  <div class="inkling-image"></div>
+
+    <section class="hero is-fullheight full" ><!--修正-->
+        <div class="hero-body">
+          <div class="container has-text-white">
+            <h1 class="title has-text-white" >
+              楽しいオープンチャット
+            </h1>
+            <h2 class="subtitle has-text-white" >
+                <button class="button is-primary">
+                  <a class="has-text-white" href="line://ti/g2/dQ-lC9y6RAZz6mmun7Bs9qaRCFGuyQ9y1rUTZg?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default">参加する</a>
+                </button>
+            </h2>
+          </div>
+        </div>
+      </section>
+      <main>
+        <div class="rule has-text-centered">
+            <h1 class="has-text-centered">ルール</h1>
+            <ul>
+                <li>・暴言禁止(喧嘩などが起きると迷惑なため)</li>
+                <li>・荒らし禁止(理由無しの即抜けも荒らしに入ります)</li>
+                <li>・他オプ宣伝禁止(宣伝目的と見なす)</li>
+                <li>・個人情報流出禁止(年齢も)</li>
+                <li>・その時間、空いてる人だけでゲームします！</li>
+            </ul>            
+        </div>
+    </main>
+    <div class="self-introduction has-text-centered">
+        <h1 class="has-text-centered">管理人・副管理人</h1>
+        <div class="picture">
+        <div class="manzi-chan fadein" style="margin-top: 1cm;">
+            <img src="S__2629687.jpg" alt="卍ちゃん"  title="卍ちゃん">
+            <p>卍ちゃん。㊗️240人！ </p>
+        </div>
+        <div class="sanpun manzi-chan has-background-light fadein picture" >
+          <img src="./S__2629689.jpg" alt="sanpun">
+          <p>3分🐶 </p>
+        </div>
+        <div class="yu-na manzi-chan sanpun fadein picture">
+          <img src="./S__2629690.jpg" alt="">
+          <p>yu-na㊗️230人 </p>
+        </div>
+        <div class="kana manzi-chan sanpun  has-background-light fadein picture">
+          <img src="./S__2629691.jpg" alt="">
+          <p>ᔦꙬᔨkana</p>
+        </div>
+        <div class="itomaru manzi-chan sanpun fadein picture">
+          <img src="./S__2629692.jpg" alt="">
+          <p>いとまる</p>
+        </div>
+        <div class="shingenmoti manzi-chan sanpun has-background-light fadein picture" >
+          <img src="./S__2629693.jpg" alt="">
+          <p>しんげんもち</p>
+        </div>
+        <div class="nukooooo manzi-chan sanpun fadein picture">
+          <img src="./S__2629694.jpg" alt="">
+          <p>ぬこぉぉぉぉ㊗️240人</p>
+        </div>
+        <div class="yukki- manzi-chan sanpun  has-background-light fadein picture">
+          <img src="./S__2629695.jpg" alt="">
+          <p>ゆっきー㊗️240人‼️</p>
+      </div>
+      <div class="mei manzi-chan sanpun fadein picture">
+        <img src="./S__2629696.jpg" alt="">
+        <p>🐟 め い 🐱</p>
+      </div>
+      <div class="nui manzi-chan sanpun  has-background-light fadein picture">
+        <img src="./S__2629697.jpg" alt="">
+        <p>🦴 ぬ い 🐶</p>
+      </div>
+      </div>
+</div>
+<div class="end has-background-dark has-text-white">
+  <h1>Design by <a href="https://twitter.com/HakuProgramming" class="has-text-white">Haku_</a></h1>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script>
+  $(function(){
+    $(window).scroll(function () {
+      $('.fadein').css({
+      'opacity': '0',
+      'transform': 'translateX(30px)',
+    })
+    //スクロールバーの位置を取得
+    var scroll = $(window).scrollTop()
+      //ウィンドウの高さを取得
+      var windowHeight = $(window).height();
+
+     $('.fadein').each(function() {
+  //フェードインさせたい要素の縦位置を取得
+  var elemPos = $(this).offset().top;
+
+  //要素がウィンドウの中に入ってからさらに100pxスクロールしたら要素をフェードインする
+  if (scroll > elemPos - windowHeight + 100) {
+    $(this).css({
+      'opacity': '1',
+      'transform': 'translateX(0)'
+    });
+  }
+}); 
+    });
+  })
+</script>
+</html>
