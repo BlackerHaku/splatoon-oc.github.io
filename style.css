@@ -11,15 +11,24 @@
     background-size: cover;
     background-position: center;
 }
+.full::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+  }
 .title {
-    font-size: 25px;
+    font-size: 29px;
 }
 main {
     margin-top: 2cm;
 }
 .rule h1 {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
 }
 .self-introduction {
     margin-top: 2cm;
